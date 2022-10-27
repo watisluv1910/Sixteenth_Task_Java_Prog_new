@@ -1,6 +1,7 @@
 package org.app;
 
 import org.areas.Areas;
+import org.auth.Authorization;
 import org.stylePicker.StylePicker;
 
 public class App {
@@ -18,9 +19,7 @@ public class App {
             switch (navigationVar) {
                 case 1 -> new Areas();
                 case 2 -> new StylePicker();
-                case 3 -> {
-
-                }
+                case 3 -> new Authorization();
                 default -> System.exit(1);
             }
         }
