@@ -1,4 +1,4 @@
-package org.firstSubtask;
+package org.areas;
 
 import javax.swing.*;
 import java.awt.*;

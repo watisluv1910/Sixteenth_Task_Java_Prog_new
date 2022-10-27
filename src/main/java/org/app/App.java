@@ -1,8 +1,7 @@
 package org.app;
 
-import org.firstSubtask.Areas;
-
-import java.io.IOException;
+import org.areas.Areas;
+import org.stylePicker.StylePicker;
 
 public class App {
 
@@ -21,7 +20,7 @@ public class App {
                     new Areas();
                 }
                 case 2 -> {
-
+                    new StylePicker();
                 }
                 case 3 -> {
 
