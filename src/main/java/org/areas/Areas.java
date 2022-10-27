@@ -71,8 +71,7 @@ public class Areas {
             UIManager.setLookAndFeel(
                     UIManager.getSystemLookAndFeelClassName()
             );
-        }
-        catch (Exception ex) {
+        } catch (Exception ex) {
             System.err.println(ex.getMessage());
         }
 
@@ -88,17 +87,13 @@ public class Areas {
             // Show a dialog window when mouse enters one of the areas North, West, Center, East, South
             if (e.getY() < 100) {
                 JOptionPane.showMessageDialog(frame, "North");
-            }
-            else if (e.getX() < 100) {
+            } else if (e.getX() < 100) {
                 JOptionPane.showMessageDialog(frame, "West");
-            }
-            else if (e.getX() > 300) {
+            } else if (e.getX() > 300) {
                 JOptionPane.showMessageDialog(frame, "East");
-            }
-            else if (e.getY() > 300) {
+            } else if (e.getY() > 300) {
                 JOptionPane.showMessageDialog(frame, "South");
-            }
-            else {
+            } else {
                 JOptionPane.showMessageDialog(frame, "Center");
             }
         }

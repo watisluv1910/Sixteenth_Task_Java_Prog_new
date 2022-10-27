@@ -2,7 +2,6 @@ package org.stylePicker;
 
 import javax.swing.*;
 import java.awt.*;
-import java.util.Locale;
 import java.util.Map;
 
 public class StylePicker {
@@ -111,8 +110,7 @@ public class StylePicker {
             UIManager.setLookAndFeel(
                     UIManager.getSystemLookAndFeelClassName()
             );
-        }
-        catch (Exception ex) {
+        } catch (Exception ex) {
             System.err.println(ex.getMessage());
         }
 

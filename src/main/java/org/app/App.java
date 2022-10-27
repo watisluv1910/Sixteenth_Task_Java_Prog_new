@@ -5,7 +5,7 @@ import org.stylePicker.StylePicker;
 
 public class App {
 
-    public static void main( String[] args ) {
+    public static void main(String[] args) {
 
         while (true) {
 
@@ -16,12 +16,8 @@ public class App {
                     Enter any other digit to stop the program.""", Integer::valueOf);
 
             switch (navigationVar) {
-                case 1 -> {
-                    new Areas();
-                }
-                case 2 -> {
-                    new StylePicker();
-                }
+                case 1 -> new Areas();
+                case 2 -> new StylePicker();
                 case 3 -> {
 
                 }
